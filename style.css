@@ -1,0 +1,92 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: "Libre Baskerville", serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #080006, #0f000a);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+/* Navigation Bar */
+nav {
+    background: #ba3a87;
+}
+.nav-links {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    list-style: none;
+    margin: 0;
+}
+.nav-links li {
+    margin: 0 15px;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav-links a:hover {
+    color: #5c0138;
+}
+
+/* Sections */
+section {
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+section h2 {
+    margin-bottom: 20px;
+    color: #ba3a87;
+}
+section p {
+    margin-bottom: 20px;
+}
+
+/* Project Cards */
+.projects-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.project-card {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.project-card a {
+    text-decoration: none;
+    color: #ba3a87;
+    font-weight: bold;
+}
+.project-card a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #ba3a87;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
